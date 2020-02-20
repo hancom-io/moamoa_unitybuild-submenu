@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>UnityBuildSubMenu</id>
+    <version>1.0.0</version>
+    <authors>진주영</authors>
+    <owners>진주영</owners>
+    <projectUrl>https://github.com/hancomio/MoaMoa_UnityBuildSubMenu</projectUrl>
+    <licenseUrl>https://github.com/hancomio/MoaMoa_UnityBuildSubMenu/blob/master/UnityBuildMenuProject_0.1_notice.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UnityBuild 확장프로그램 ( Visual Studio에서 사용자가 직접 UnityBuild 설정 가능 )</description>
+    <tags>Visual Studio 확장</tags>
+    <copyright>Copyright © The CefSharp Authors</copyright>
+    <dependencies>
+      <group targetFramework="net46">
+        <dependency id="Microsoft.VisualStudio.CoreUtility" version="15.0.26228" />
+        <dependency id="Microsoft.VisualStudio.Imaging" version="15.0.26228" />
+        <dependency id="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" version="14.3.25408" />
+        <dependency id="Microsoft.VisualStudio.OLE.Interop" version="7.10.6071" />
+        <dependency id="Microsoft.VisualStudio.SDK.Analyzers" version="15.8.33" />
+        <dependency id="Microsoft.VisualStudio.SDK.EmbedInteropTypes" version="15.0.10" />
+        <dependency id="Microsoft.VisualStudio.Shell" version="15.0.15.0.26228" />
+        <dependency id="Microsoft.VisualStudio.Shell.Framework" version="15.0.26228" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop" version="7.10.6071" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop" version="8.0.8.0.50727" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop" version="9.0.9.0.30729" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop" version="10.0.10.0.30319" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop" version="11.0.11.0.61030" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop" version="12.0.12.0.30110" />
+        <dependency id="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime" version="14.3.25407" />
+        <dependency id="Microsoft.VisualStudio.TextManager.Interop" version="7.10.6070" />
+        <dependency id="Microsoft.VisualStudio.TextManager.Interop" version="8.0.8.0.50727" />
+        <dependency id="Microsoft.VisualStudio.Threading" version="15.0.240" />
+        <dependency id="Microsoft.VisualStudio.Threading.Analyzers" version="15.8.122" />
+        <dependency id="Microsoft.VisualStudio.Utilities" version="15.0.26228" />
+        <dependency id="Microsoft.VisualStudio.Validation" version="15.0.82" />
+        <dependency id="Microsoft.VSSDK.BuildTools" version="15.9.3043" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
+

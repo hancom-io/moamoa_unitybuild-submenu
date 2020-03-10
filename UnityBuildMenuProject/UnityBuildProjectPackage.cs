@@ -229,10 +229,11 @@ namespace UnityBuildMenuProject {
             Dictionary<string, int> dicInfo = unityBuildProjectPackage.GetUnityBuildDirectoryInfo();
             List<KeyValuePair<string, int>> listDic;
             listDic = new List<KeyValuePair<string, int>>(dicInfo);
-            
+            int moamoaStatus = 1;
+
             for (int i = 0; i < listDic.Count; ++i) {
                 if (listDic[i].Key == activeProject) {
-                    int moamoaStatus = listDic[i].Value;
+                    moamoaStatus = listDic[i].Value;
                 }
             }
 
